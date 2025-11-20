@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  safethecord:
+    build: .
+    container_name: safethecord
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./config.ini:/app/config.ini
+      - ./cogs:/app/cogs
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+

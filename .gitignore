@@ -1,1 +1,5 @@
 .env
+/.venv
+/data/bot.log
+/data/birthdays.csv
+*.pyc
