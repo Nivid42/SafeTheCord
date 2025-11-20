@@ -32,6 +32,6 @@ docker compose up -d --build
 ```
 
 # Contribute
-Contributions are welcome! Whether it's bug fixes, new features, or improvements to the documentation – feel free to open an issue or submit a pull request. <br>
+Contributions are welcome! Whether it's bug fixes, new features, or improvements to the documentation feel free to open an issue or submit a pull request. <br>
 If you have ideas or suggestions but don't want to code them yourself, just open an issue and let's discuss it!
 I
